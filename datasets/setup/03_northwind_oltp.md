@@ -17,7 +17,6 @@ El módulo organiza sus datasets como **schemas** dentro de **una sola base** `n
 
 - **`northwind_oltp`** — datos transaccionales originales (esta guía).
 - **`northwind_dwh`** — data warehouse en esquema estrella (siguiente guía).
-- **`airbnb`** — dataset semi-estructurado (guía 05).
 
 > 💡 **Si vienes de MySQL:** ahí `CREATE SCHEMA` y `CREATE DATABASE` son sinónimos. En PostgreSQL son cosas distintas: una conexión apunta a una **base**; los schemas son carpetas dentro de la base.
 >
@@ -55,7 +54,3 @@ Si responde 14, el OLTP está listo y puedes pasar a la siguiente guía.
 Continúa con **`04_northwind_dwh.md`** — vas a construir un **data warehouse** sobre el OLTP que acabas de cargar. Ese es el corazón del módulo.
 
 ---
-
-<p align="center">
-<a href="../Tema-01/Readme.md">← Volver al índice del Tema 01</a> | <a href="04_northwind_dwh.md">Siguiente: 04 — Data warehouse →</a>
-</p>
