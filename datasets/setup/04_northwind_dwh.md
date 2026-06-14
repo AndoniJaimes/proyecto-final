@@ -4,8 +4,8 @@ Vas a construir un **data warehouse** sobre Northwind: una base optimizada para 
 
 ## Prerequisitos
 
-- ✅ `northwind_oltp` cargado y verificado (guía 03).
-- ✅ Schema `northwind_dwh` creado (lo creaste en la guía 03 junto con el OLTP).
+- ✅ `northwind_oltp` cargado y verificado.
+- ✅ Schema `northwind_dwh` creado.
 
 ---
 
@@ -40,7 +40,3 @@ WHERE table_schema = 'northwind_dwh'
 ORDER BY table_name;
 -- Esperado: 6 filas (dim_customer, dim_date, dim_employee, dim_product, dim_shipper, fact_sales)
 ```
-
-<p align="center">
-<a href="../Tema-01/Readme.md">← Volver al índice del Tema 01</a> | <a href="05_airbnb.md">Siguiente: 05 — Airbnb →</a>
-</p>
