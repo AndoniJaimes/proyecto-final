@@ -78,3 +78,32 @@ El dataset Northwind es ideal para este proyecto porque:
 
 ---
 
+## 🚀 Ejecución del ETL
+
+### 1. Instalar dependencias
+pip install pandas sqlalchemy psycopg2-binary
+
+### 2. Configurar conexión
+Edita el archivo etl_pipeline.py y asegúrate de actualizar tus credenciales:
+
+HOST = "aurora-mod4.cluster-XXX.us-east-1.rds.amazonaws.com"
+PORT = 5432
+USER = "postgres"
+PASSWORD = "TU_PASSWORD"
+DATABASE = "northwind"
+
+### 3. Ejecutar el ETL
+python scripts/etl_pipeline.py \
+    -- host aurora-mod4.cluster-XXX.us-east-1.rds.amazonaws.com \
+    -- user postgres \
+    -- password TU_PASSWORD \
+    -- database northwind
+
+### 4. Salida esperada
+✅ Extracción completada  
+✅ Transformación completada  
+✅ Carga completada  
+🔍 fact_sales=2155 | dim_customer=91 | dim_product=77 | ...  
+🔍 Total ventas OLTP = 123456 | Total ventas DWH = 123456  
+
+
