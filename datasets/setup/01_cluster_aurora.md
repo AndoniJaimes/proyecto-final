@@ -77,8 +77,8 @@ En este módulo elegimos **Aprovisionado** porque el AWS Academy Learner Lab **b
 | Identificador del clúster de base de datos | `aurora-mod4` (o el nombre que prefieras, todo en minúsculas y con guiones, sin espacios) |
 | Nombre de usuario maestro | `postgres` |
 | Administración de credenciales | **Autoadministrado** |
-| Contraseña maestra | Genera una contraseña fuerte y **guárdala** ya en tu gestor de contraseñas — la necesitarás cada vez que conectes. Sugerencia: usa `openssl rand -base64 24` en una terminal para generar una buena |
-| Confirmar contraseña | (la misma) |
+| Contraseña maestra | D1pl0m4d0 |
+| Confirmar contraseña | D1pl0m4d0 |
 
 ![Tipo de escalabilidad, versión del motor, identificador y usuario maestro](img/paso2_2_1.png)
 
