@@ -409,6 +409,13 @@ Para simular un escenario más realista, se introdujo un parámetro de **elastic
 
 ---
 
+## 📊 Dashboard en Power BI
+El análisis completo se encuentra en el archivo [`dashboard.pbix`](./dashboard.pbix).  
+Este archivo incluye:
+- Modelo de datos con las columnas `product_name`, `volumen_total`, `margen_unitario_aprox`.
+- Medidas DAX para calcular ingresos antes, después, variación y elasticidad.
+- Visualizaciones interactivas con slider de descuento y filtros por producto.
+
 ## 📍 Resultados del Dashboard
 - Con descuentos pequeños (ej. 10%), el volumen adicional compensa casi toda la pérdida de margen.  
 - Con elasticidad > 1, los ingresos después pueden subir ligeramente, pero nunca de manera significativa.  
