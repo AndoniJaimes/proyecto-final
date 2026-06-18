@@ -5,7 +5,7 @@
 ```
 proyecto-final/
 ├── README.md                    ← problema, modelo, cómo ejecutar, hallazgos
-├── datasets/                    ← datos crudos (o link de descarga si son grandes)
+├── datasets/                    ← datos crudos 
 │   └── setup/                   ← documentación de preparación
 │       ├── 01_cluster_aurora.md
 │       ├── 02_dbeaver_conexion.md
@@ -16,11 +16,10 @@ proyecto-final/
 │   ├── 01_schema_ddl.sql        ← creación del modelo dimensional (DDL)
 │   ├── Querys.sql               ← queries analíticas avanzadas
 │   └── etl_pipeline.py          ← script ETL completo
-├── dashboard/                   ← archivo del dashboard
-│   ├── Dashboard.pbix           ← dashboard interactivo en Power BI
-│   └── Resultado_query5.csv     ← base generada para aplicar la fórmula ΔVolumen
-└── docs/
-    └── diagrama_modelo.png      ← diagrama del esquema estrella
+└── dashboard/                   ← archivo del dashboard
+    ├── Dashboard.pbix           ← dashboard interactivo en Power BI
+    └── Resultado_query5.csv     ← base generada para aplicar la fórmula ΔVolumen
+
 ```
 
 ## Planteamiento del problema
