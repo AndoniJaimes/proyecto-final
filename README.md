@@ -1,5 +1,28 @@
 # Proyecto Final — Análisis de Ventas y Estrategia de Descuentos en Northwind
 
+## :package: Directorio
+
+```
+proyecto-final/
+├── README.md                    ← problema, modelo, cómo ejecutar, hallazgos
+├── datasets/                    ← datos crudos (o link de descarga si son grandes)
+│   └── setup/                   ← documentación de preparación
+│       ├── 01_cluster_aurora.md
+│       ├── 02_dbeaver_conexion.md
+│       ├── 03_northwind_oltp.md
+│       ├── 04_northwind_dwh.md
+│       └── northwind.sql
+├── scripts/
+│   ├── 01_schema_ddl.sql        ← creación del modelo dimensional (DDL)
+│   ├── Querys.sql               ← queries analíticas avanzadas
+│   └── etl_pipeline.py          ← script ETL completo
+├── dashboard/                   ← archivo del dashboard
+│   ├── Dashboard.pbix           ← dashboard interactivo en Power BI
+│   └── Resultado_query5.csv     ← base generada para aplicar la fórmula ΔVolumen
+└── docs/
+    └── diagrama_modelo.png      ← diagrama del esquema estrella
+```
+
 ## Planteamiento del problema
 
 La dirección de Northwind está evaluando la posibilidad de lanzar una campaña comercial similar al *Buen Fin*, caracterizada por descuentos masivos en productos clave. Antes de implementar esta estrategia, los directores desean analizar si la reducción de márgenes mediante descuentos podría ser compensada por un incremento significativo en el volumen de ventas, o si por el contrario afectaría negativamente las ganancias netas de la empresa.
