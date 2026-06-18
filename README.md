@@ -416,6 +416,8 @@ Este archivo incluye:
 - Medidas DAX para calcular ingresos antes, después, variación y elasticidad.
 - Visualizaciones interactivas con slider de descuento y filtros por producto.
 
+<img width="1332" height="743" alt="image" src="https://github.com/user-attachments/assets/9f31377f-79dd-4437-870e-65bf61761802" />
+
 ## 📍 Resultados del Dashboard
 - Con descuentos pequeños (ej. 10%), el volumen adicional compensa casi toda la pérdida de margen.  
 - Con elasticidad > 1, los ingresos después pueden subir ligeramente, pero nunca de manera significativa.  
